@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="BBUniversity.jnlp">
+  <information>
+    <title>BBUniversity</title>
+    <vendor>mak22</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="BBUniversity.jar" size="1418350" download="eager" />
+    <jar href="lib\mysql-connector-java-8.0.17.jar" size="2321813" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="bbuniversity.BBUniversity"  name="BBUniversity" />
+  <update check="always"/>
+</jnlp>
